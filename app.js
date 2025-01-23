@@ -11,7 +11,7 @@ while (true) {
   }
 
   if (guess == randum) {
-    console.log("you have guess the correct number,Congrats!");
+    console.log("you have guess the correct number,Congrats! random number was", randum);
     break;
   } else if (guess < randum) {
     guess = prompt("Hint: you number was too small, try again.");
